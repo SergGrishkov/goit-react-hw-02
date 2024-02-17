@@ -1,0 +1,12 @@
+.list {
+    padding: 10px;
+}
+
+.text {
+    width: 120px;
+    font-weight: 600;
+}
+
+.listItem {
+    margin-bottom: 14px;
+}
