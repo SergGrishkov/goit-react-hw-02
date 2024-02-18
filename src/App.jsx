@@ -28,8 +28,8 @@ function App() {
   );
 
   useEffect(() => {
-    localStorage.setItem("feedback", JSON.stringify(feedback), [feedback]);
-  });
+    localStorage.setItem("feedback", JSON.stringify(feedback));
+  }, [feedback]);
 
   return (
     <div>
